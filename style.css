@@ -30,13 +30,15 @@ h2 {
 
 .flex-container2 {
     display: flex;
-    padding: 80px 80px;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 22px;
     justify-content: center;
 }
 
 .boxmodel {
-    margin-inline: 5px;
-    padding: 80px 80px;
+    width: 387px;;
+    height: 225px;
     background-color: rgb(255, 255, 255) ;
     border-color: rgb(255, 255, 255);
     /* box-shadow: 2px 2px rgb(159, 158, 158); */
