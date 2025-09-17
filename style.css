@@ -7,40 +7,54 @@ body{
 }
 
 h1 {
-    line-height: normal;
+    width: 845px;
+    height: 110px;
+    margin: 0 auto;
+    line-height: 1.4;
     text-align: center;
     text-transform: capitalize;
     font-family: "Open Sans";
+
 }
 
 h2 {
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     font-family: "Open Sans";
-    color: red;
+    color: black;
 }
 
 .flex-container1 {
     display: flex;
-    padding: 80px 80px;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 22px;
     justify-content: center;
 }
 
 .flex-container2 {
     display: flex;
-    padding: 80px 80px;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 22px;
     justify-content: center;
 }
 
 .boxmodel {
-    margin-inline: 5px;
-    padding: 80px 80px;
+    width: 387px;;
+    height: 225px;
+    padding: 22px;
+    gap: 28px;
     background-color: rgb(255, 255, 255) ;
     border-color: rgb(255, 255, 255);
-    /* box-shadow: 2px 2px rgb(159, 158, 158); */
 }
 
 p {
-    text-align: center;
+    width: 343px;
+    height: 130px;
+    size: 17px;
+    line height: 26px;
+    text-align: left;
+    font-family: "Open Sans";
 }
 
